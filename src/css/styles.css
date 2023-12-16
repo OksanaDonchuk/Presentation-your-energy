@@ -10,6 +10,7 @@
 @import url('./section.css');
 @import url('./header.css');
 @import url('./hero.css');
+@import url('./mobile-menu.css');
 
 @import url('./modal_team.css');
 
@@ -23,7 +24,7 @@
   --gray: #f3f5f6;
   --white: #fff;
 
-  --dark-transparent: rgba(18, 20, 23, 0.5);
+  --dark-transparent: rgba(1, 5, 11, 0.677);
   --light-transparent: rgba(255, 255, 255, 0.5);
 
   --font-weight-bold: 700;

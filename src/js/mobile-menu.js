@@ -2,9 +2,7 @@ const body = document.querySelector('body');
 const mobileMenu = document.querySelector('.js-menu-container');
 const openMenuBtn = document.querySelector('.js-open-menu');
 const closeMenuBtns = document.querySelectorAll('.js-close-menu');
-const closeMenuLink = document.querySelectorAll(
-  '.page-header-mobile-menu-nav-list-link'
-);
+const closeMenuLink = document.querySelectorAll('.mobile-menu-link');
 
 const onEscapeClose = event => {
   if (event.code !== 'Escape') return;
