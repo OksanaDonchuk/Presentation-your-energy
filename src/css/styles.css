@@ -18,12 +18,11 @@
 :root {
   --black: #121417;
   --dark-blue: #090652;
-  --medium-green: #bee8cc;
-  --green-linear: linear-gradient(80deg, #4dc274 0%, #bee8cc 100%);
-  --light-green: #d4fde1;
+  --medium-blue: #69688d;
+
   --gray: #f3f5f6;
   --white: #fff;
-  --hover-green: #38ae5f;
+
   --dark-transparent: rgba(18, 20, 23, 0.5);
   --light-transparent: rgba(255, 255, 255, 0.5);
 
