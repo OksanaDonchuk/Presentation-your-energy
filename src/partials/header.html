@@ -1,13 +1,55 @@
-<header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
+<header class="header" id="header">
+  <div class="container header-container">
+    <nav class="header-nav">
+      <a href="#header" class="header-logo link"
+        >DEV<span class="header-logo-accent">&#60;SQARD&#47;&#62;</span>
+      </a>
+      <ul class="header-nav-list">
+        <li class="header-nav-item">
+          <a href="../01-gallery.html" class="header-nav-link link">Customer</a>
+        </li>
+        <li class="header-nav-item">
+          <button
+            type="button"
+            class="link header-nav-link button-link"
+            data-modal-technology-open
+          >
+            Technology
+          </button>
+        </li>
 
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
+        <li class="header-nav-item">
+          <a
+            href="https://sem-aa.github.io/your-energy-project8/?filter=Muscles"
+            class="header-nav-link link"
+            >Project</a
+          >
+        </li>
+
+        <li class="header-nav-item">
+          <button
+            type="button"
+            class="link header-nav-link button-link"
+            data-modal-team-open
+          >
+            Our Team
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <button
+      class="header-burger-btn js-open-menu"
+      type="button"
+      aria-expanded="false"
+    >
+      <svg
+        class="header-burger-icon"
+        aria-label="burger icon"
+        width="32"
+        height="32"
+      >
+        <use href="./img/sprite.svg#icon-burger"></use>
+      </svg>
+    </button>
+  </div>
 </header>
