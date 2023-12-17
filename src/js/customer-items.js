@@ -1,14 +1,14 @@
 export const customerItems = [
   {
-    preview: '../../src/img/customer_340.jpg',
-    original: '../../src/img/customer_1280.jpg',
+    preview: './img/customer_340.jpg',
+    original: './img/customer_1280.jpg',
     description:
       'Це Дмитро. Він девелопер. За два роки роботи 24/7 втратив спортивну форму. І зрозумів: щось треба робити',
   },
   {
     preview: './img/shop_340.jpg',
     original: './img/shop_1280.jpg',
-    description: 'Дмитро побіжав до спортивного магазину.',
+    description: 'Дмитро побіжав до спортивного магазину',
   },
   {
     preview: './img/equipment_340.jpg',
