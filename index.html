@@ -6,10 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Presentation</title>
     
-    <script type="module" crossorigin src="/Presentation-your-energy/assets/vendor-c9def49e.js"></script>
-    <script type="module" crossorigin src="/Presentation-your-energy/assets/customer-1fac422e.js"></script>
-    <link rel="stylesheet" href="/Presentation-your-energy/assets/vendor-8c8fa3ea.css">
-    <link rel="stylesheet" href="/Presentation-your-energy/assets/customer-e3a5d161.css">
+    <script type="module" crossorigin src="/Presentation-your-energy/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/Presentation-your-energy/assets/styles-ac226b88.js">
+    <link rel="stylesheet" href="/Presentation-your-energy/assets/styles-52697298.css">
   </head>
   <body>
     <header class="header" id="header">
@@ -23,13 +22,7 @@
           <a href="../customer.html" class="header-nav-link link">Customer</a>
         </li>
         <li class="header-nav-item">
-          <button
-            type="button"
-            class="link header-nav-link button-link"
-            data-modal-technology-open
-          >
-            Technology
-          </button>
+          <a href="#technology" class="header-nav-link link">Technology</a>
         </li>
 
         <li class="header-nav-item">
@@ -376,6 +369,184 @@
       </ul>
     </div>
   </div>
+</div>
+
+    <section id="technology" class="section">
+  <div class="container tech-container">
+    <h2 class="section-title">Технології які виконувались</h2>
+
+    <ul class="tech_list">
+      <li
+        class="tech_elements"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="3000"
+      >
+        <h3 class="tech_title">Front-end</h3>
+        <div class="tech-items">
+          <ul class="tech-items-list">
+            <li class="tech-item">
+              <svg
+                class="tech-icon"
+                aria-label="tech-icon"
+                width="32"
+                height="32"
+              >
+                <use href="../img/symbol-defs.svg#icon-html"></use>
+              </svg>
+              <p>HTML</p>
+            </li>
+            <li class="tech-item">
+              <svg
+                class="tech-icon"
+                aria-label="tech-icon"
+                width="32"
+                height="32"
+              >
+                <use href="../img/symbol-defs.svg#icon-css"></use>
+              </svg>
+              <p>CSS</p>
+            </li>
+            <li class="tech-item">
+              <svg
+                class="tech-icon"
+                aria-label="tech-icon"
+                width="32"
+                height="32"
+              >
+                <use href="../img/symbol-defs.svg#icon-java_script2"></use>
+              </svg>
+              <p>Java Script</p>
+            </li>
+            <li class="tech-item">
+              <svg
+                class="tech-icon"
+                aria-label="tech-icon"
+                width="32"
+                height="32"
+              >
+                <use href="../img/symbol-defs.svg#icon-axios"></use>
+              </svg>
+              <p>Axios</p>
+            </li>
+            <li class="tech-item">
+              <svg
+                class="tech-icon"
+                aria-label="tech-icon"
+                width="32"
+                height="32"
+              >
+                <use href="../img/symbol-defs.svg#icon-complete_done"></use>
+              </svg>
+              <p>LightBox</p>
+            </li>
+            <li class="tech-item">
+              <svg
+                class="tech-icon"
+                aria-label="tech-icon"
+                width="32"
+                height="32"
+              >
+                <use href="../img/symbol-defs.svg#icon-complete_done"></use>
+              </svg>
+              <p>Pagination</p>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li
+        class="tech_elements"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="3000"
+      >
+        <h3 class="tech_title">Back-end</h3>
+        <div class="tech-items">
+          <ul class="tech-items-list">
+            <li class="tech-item">
+              <svg
+                class="tech-icon"
+                aria-label="tech-icon"
+                width="32"
+                height="32"
+              >
+                <use href="../img/symbol-defs.svg#icon-node"></use>
+              </svg>
+              <p>Node.js</p>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li
+        class="tech_elements"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="3000"
+      >
+        <h3 class="tech_title">Utilites</h3>
+        <div class="tech-items">
+          <ul class="tech-items-list">
+            <li class="tech-item">
+              <svg
+                class="tech-icon"
+                aria-label="tech-icon"
+                width="32"
+                height="32"
+              >
+                <use href="../img/symbol-defs.svg#icon-vscode"></use>
+              </svg>
+              <p>VS Code</p>
+            </li>
+            <li class="tech-item">
+              <svg
+                class="tech-icon"
+                aria-label="tech-icon"
+                width="32"
+                height="32"
+              >
+                <use href="../img/symbol-defs.svg#icon-complete_done"></use>
+              </svg>
+
+              <p>Vite</p>
+            </li>
+            <li class="tech-item">
+              <svg
+                class="tech-icon"
+                aria-label="tech-icon"
+                width="32"
+                height="32"
+              >
+                <use href="../img/symbol-defs.svg#icon-figma"></use>
+              </svg>
+              <p>Figma</p>
+            </li>
+            <li class="tech-item">
+              <svg
+                class="tech-icon"
+                aria-label="tech-icon"
+                width="32"
+                height="32"
+              >
+                <use href="../img/symbol-defs.svg#icon-git"></use>
+              </svg>
+              <p>Git/Git Hub</p>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+    <div class="btn-up">
+  <button class="btn-up-wrapper__btn" id="to-top-btn" title="Go to top">
+    <svg class="icon-arrow" aria-label="up">
+      <use
+        class="arrow"
+        href="../img/icon-arrow-to-top.svg#icon-arrow-top-right"
+      ></use>
+    </svg>
+  </button>
 </div>
 
   </body>
