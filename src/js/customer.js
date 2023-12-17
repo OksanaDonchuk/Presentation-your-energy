@@ -1,6 +1,6 @@
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-import { customerItems } from './customer-items';
+import { customerItems } from './customer-items.js';
 
 const gallery = document.querySelector('.customer');
 
@@ -19,6 +19,8 @@ function createMarkup(arr) {
     )
     .join('');
 }
+
+console.log(customerItems);
 
 gallery.insertAdjacentHTML('afterbegin', createMarkup(customerItems));
 
