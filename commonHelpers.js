@@ -1,10 +1,10 @@
-import"./assets/modulepreload-polyfill-ec808ebb.js";import{S as t}from"./assets/vendor-c9def49e.js";const e=[{preview:"https://cdn.pixabay.com/photo/2019/05/14/16/43/rchids-4202820__480.jpg",original:"https://cdn.pixabay.com/photo/2019/05/14/16/43/rchids-4202820_1280.jpg",description:"Hokkaido Flower"},{preview:"https://cdn.pixabay.com/photo/2019/05/14/22/05/container-4203677__340.jpg",original:"https://cdn.pixabay.com/photo/2019/05/14/22/05/container-4203677_1280.jpg",description:"Container Haulage Freight"},{preview:"https://cdn.pixabay.com/photo/2019/05/16/09/47/beach-4206785__340.jpg",original:"https://cdn.pixabay.com/photo/2019/05/16/09/47/beach-4206785_1280.jpg",description:"Aerial Beach View"},{preview:"https://cdn.pixabay.com/photo/2016/11/18/16/19/flowers-1835619__340.jpg",original:"https://cdn.pixabay.com/photo/2016/11/18/16/19/flowers-1835619_1280.jpg",description:"Flower Blooms"},{preview:"https://cdn.pixabay.com/photo/2018/09/13/10/36/mountains-3674334__340.jpg",original:"https://cdn.pixabay.com/photo/2018/09/13/10/36/mountains-3674334_1280.jpg",description:"Alpine Mountains"},{preview:"https://cdn.pixabay.com/photo/2019/05/16/23/04/landscape-4208571__340.jpg",original:"https://cdn.pixabay.com/photo/2019/05/16/23/04/landscape-4208571_1280.jpg",description:"Mountain Lake Sailing"},{preview:"https://cdn.pixabay.com/photo/2019/05/17/09/27/the-alps-4209272__340.jpg",original:"https://cdn.pixabay.com/photo/2019/05/17/09/27/the-alps-4209272_1280.jpg",description:"Alpine Spring Meadows"},{preview:"https://cdn.pixabay.com/photo/2019/05/16/21/10/landscape-4208255__340.jpg",original:"https://cdn.pixabay.com/photo/2019/05/16/21/10/landscape-4208255_1280.jpg",description:"Nature Landscape"},{preview:"https://cdn.pixabay.com/photo/2019/05/17/04/35/lighthouse-4208843__340.jpg",original:"https://cdn.pixabay.com/photo/2019/05/17/04/35/lighthouse-4208843_1280.jpg",description:"Lighthouse Coast Sea"}],n=document.querySelector(".gallery");function c(o){return o.map(({preview:p,original:a,description:i})=>`<li class="gallery__item">
-  <a class="gallery__link" href="${a}">
+import"./assets/styles-9015ceb6.js";import{S as o}from"./assets/vendor-c9def49e.js";const p=[{preview:"../img/customer_340.jpg",original:"../img/customer_1280.jpg",description:"Дмитро, розробник"},{preview:"../img/shop_340.jpg",original:"../img/shop_1280.jpg",description:"Спортивний магазин"},{preview:"../img/equipment_340.jpg",original:"../img/equipment_1280.jpg",description:"Спортивний інвентар"},{preview:"../img/help_340.jpg",original:"../img/help_1280.jpg",description:"HELP!!!"}],m=document.querySelector(".customer");function s(i){return i.map(({preview:e,original:r,description:t})=>`<li class="customer_items">
+  <a class="customer_link" href="${r}">
     <img
-      class="gallery__image"
-      src="${p}"
-      alt="${i}"
+      class="customer_img"
+      src="${e}"
+      alt="${t}"
     />
   </a>
-</li>`).join("")}n.insertAdjacentHTML("afterbegin",c(e));new t(".gallery a",{captionsData:"alt",captionDelay:250});
+</li>`).join("")}m.insertAdjacentHTML("afterbegin",s(p));new o(".customer a",{captionsData:"alt",captionDelay:250});
 //# sourceMappingURL=commonHelpers.js.map
